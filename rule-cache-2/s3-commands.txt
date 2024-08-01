@@ -1,2 +1,0 @@
-table_add cache_t get_cached_action 1 10.0.0.2/32 => 2
-table_add pairing_t send_2ctrl 2 => 3
