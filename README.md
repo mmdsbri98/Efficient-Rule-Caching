@@ -17,6 +17,5 @@ Our theoretical analysis of RaSe, combined with a P4-based proof-of-concept asse
 
 Our primary focus here is on the implementation details. For a comprehensive understanding of the theoretical foundations and in-depth analysis, please refer to our published paper, which provides detailed explanations and insights into our work.
 
-Index Terms—Software-defined networks, rule caching, switch cooperation, data plane, optimization, approximation algorithm.
 
 
