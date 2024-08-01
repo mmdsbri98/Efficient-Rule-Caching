@@ -16,6 +16,18 @@ A framework for evaluating the performance and scalability of our solution on a 
 Our theoretical analysis of RaSe, combined with a P4-based proof-of-concept assessment in Mininet and a large-scale numerical evaluation using real-world network topology, shows that our approach runs about 160 times faster than solver-based solutions and improves the average rule lookup latency by about 21% compared to several algorithmic baselines.
 
 Our primary focus here is on the implementation details. For a comprehensive understanding of the theoretical foundations and in-depth analysis, please refer to our published paper, which provides detailed explanations and insights into our work.
+## Emulation
+
+The **Emulation** component of this project is designed to test and demonstrate our approach on a small scale. This setup allows for the practical evaluation of our cooperative rule caching method within a controlled environment. 
+
+### Key Features:
+- **Small-Scale Testing**: Simulates a limited network environment to validate the core functionalities of our solution.
+- **Demonstration**: Provides a proof-of-concept implementation that showcases how our method operates in a practical scenario.
+- **Testing Setup**: Includes scripts and configurations to emulate the behavior of P4 switches and the cooperative caching mechanism.
+
+The emulation setup enables us to verify the effectiveness of our approach and make preliminary adjustments before scaling up to more extensive simulations and real-world applications.
+
+For detailed instructions on how to run the emulation tests, please refer to the `README.md` file included in the `emulation` directory of this repository.
 
 
 
