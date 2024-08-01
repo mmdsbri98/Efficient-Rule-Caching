@@ -1,5 +1,4 @@
 # Efficient-Rule-Caching
-# Project Title
 
 ## Description
 
