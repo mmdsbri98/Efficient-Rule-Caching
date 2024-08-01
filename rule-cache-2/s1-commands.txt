@@ -1,0 +1,3 @@
+table_add cache_t get_self_action 0 10.0.0.1/32 => 1
+table_add pairing_t query_pair 1 => 3
+

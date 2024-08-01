@@ -1,0 +1,2 @@
+table_add ctrl_t send_action_from_ctrl 3 2 10.0.0.2/32 => 1 2
+table_add ctrl_t send_action_from_ctrl 3 2 10.0.0.1/32 => 2 2
