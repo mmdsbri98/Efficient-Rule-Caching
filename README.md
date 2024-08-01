@@ -66,7 +66,7 @@ protocol | type | action/owner | padding
    - Upon receiving a `TYPE R` packet, the switch restores the original IPv4 protocol value, removes `cache_h`, and forwards the packet based on the action/owner field.
 
 **Figure 2** illustrates the proposed ingress processing for this header.
-![Figure 1: Network Topology](images/figure2.jpg)
+![Figure 2: Flow Chart](images/figure2.jpg)
 
 The emulation setup enables us to verify the effectiveness of our approach and make preliminary adjustments before scaling up to more extensive simulations and real-world applications.
 
