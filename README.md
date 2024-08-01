@@ -26,7 +26,7 @@ Additionally, we create the network topology using [Mininet](http://mininet.org/
 ### Key Features:
 - **Small-Scale Testing**: Simulates a limited network environment to validate the core functionalities of our solution. In this setup, we have a topology consisting of three switches, two hosts, and one controller. This topology is illustrated in Figure 1.
 
-   ![Figure 1: Network Topology](figure1.jpg)
+   ![Figure 1: Network Topology](images/figure1.jpg)
 - **Demonstration**: Provides a proof-of-concept implementation that showcases how our method operates in a practical scenario.
 - **Testing Setup**: Includes scripts and configurations to emulate the behavior of P4 switches and the cooperative caching mechanism.
 
