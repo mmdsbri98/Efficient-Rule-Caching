@@ -72,5 +72,29 @@ The emulation setup enables us to verify the effectiveness of our approach and m
 
 For detailed instructions on how to run the emulation tests, please refer to the `README.md` file included in the `emulation` directory of this repository.
 
+## Simulation
+
+In this section, we describe the implementation and evaluation of our algorithms using Python 3.10. We utilized SCIPY as the solver for Integer Linear Programming (ILP) and Linear Programming (LP) tasks.
+
+### Network Topology
+
+We employed the [Abilene network topology](https://www.cs.utexas.edu/~yaron/abilene/) for our simulations, as depicted in Figure 3.
+![Figure 3b: Abilene Network Topology](images/figure3.jpg)
+
+### Baselines
+
+We compared our approach, RaSe, against several baseline strategies:
+
+- **Optimal (OPT):** The solution obtained from the ILP solver, providing the optimal rule placement and cache management.
+
+- **Random Pairing, Optimal Placement (RO):** This strategy, based on the work by Rottenstreich et al., pairs switches randomly and then places rules optimally using the ILP solver.
+
+- **Random Pairing, Greedy Placement (RG):** This method pairs switches randomly and places rules using a greedy approach. The placement is performed by first selecting the original switch, then its pair, and finally the controller.
+
+- **No Caching (NC):** Represents the standard SDN scenario without collaborative rule caching, serving as a baseline for comparison.
+
+
+
+
 
 
