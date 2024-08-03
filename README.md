@@ -1,5 +1,6 @@
 # Efficient-Rule-Caching
-
+## About
+This repository hosts the open-source implementation of our research paper "Efficient Collaborative Rule Caching Through Pairing of P4 Switches in SDNs" accepted for publication by the IEEE Global Communications Conference 2024. 
 ## Description
 
 Software-defined networks (SDNs) provide customizable traffic control by storing numerous rules in on-chip memories with minimal access latency. However, the current on-chip memory capacity falls short of meeting the growing demands of SDN control applications. While rule eviction and aggregation strategies address this challenge at the switch level, programmable data planes enable a more flexible approach through cooperative rule caching. However, current solutions rely on computationally intensive off-the-shelf solvers to perform rule placement across the network.
