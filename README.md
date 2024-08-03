@@ -1,6 +1,18 @@
 # Efficient-Rule-Caching
 ## About
 This repository hosts the open-source implementation of our research paper "Efficient Collaborative Rule Caching Through Pairing of P4 Switches in SDNs" accepted for publication by the IEEE Global Communications Conference 2024. 
+## License
+
+© 2024 Mohammad Saberi.
+
+This project's source code is released under the [GNU Affero General Public License v3](https://www.gnu.org/licenses/agpl-3.0.html) (AGPLv3). This means:
+
+- **Redistribution:** You are free to redistribute the program or any modified version of it. However, you must also provide the full source code and a copy of the license to the recipient.
+- **Modification:** Any modified version or derivative work must be licensed under the same terms as the original license.
+- **Remote Access:** If users interact with your modified version remotely over a computer network, you must make the source code of the modified program available to them under the same licensing terms.
+
+**In short (TL;DR):** If you modify and distribute this project, you must also open-source your derivative work's source code under the AGPLv3.
+
 ## Description
 
 Software-defined networks (SDNs) provide customizable traffic control by storing numerous rules in on-chip memories with minimal access latency. However, the current on-chip memory capacity falls short of meeting the growing demands of SDN control applications. While rule eviction and aggregation strategies address this challenge at the switch level, programmable data planes enable a more flexible approach through cooperative rule caching. However, current solutions rely on computationally intensive off-the-shelf solvers to perform rule placement across the network.
