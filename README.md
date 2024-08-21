@@ -52,6 +52,7 @@ In this section, we describe the implementation and evaluation of our algorithms
 ### Network Topology
 
 We employed the [Abilene network topology](https://www.cs.utexas.edu/~yaron/abilene/) for our simulations, as depicted in Figure 3.
+
 ![Figure 3b: Abilene Network Topology](images/figure3.jpg)
 
 
