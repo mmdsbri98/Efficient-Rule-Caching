@@ -24,9 +24,8 @@ A setup for testing and demonstrating our approach on a small scale.
 ### 2. Simulation
 A framework for evaluating the performance and scalability of our solution on a larger scale.
 
-Our theoretical analysis of RaSe, combined with a P4-based proof-of-concept assessment in Mininet and a large-scale numerical evaluation using real-world network topology.
-
 Our primary focus here is on the implementation details. For a comprehensive understanding of the theoretical foundations and in-depth analysis, please refer to our published paper, which provides detailed explanations and insights into our work.
+
 ## Emulation
 
 In this section, we utilize [P4-Utils](https://nsg-ethz.github.io/p4-utils/introduction.html) to facilitate our emulation setup. P4-Utils provides a suite of tools designed to streamline the development and testing of P4-based network applications. By leveraging P4-Utils, we can efficiently simulate the behavior of P4 switches and validate our cooperative rule caching approach within a controlled environment.
